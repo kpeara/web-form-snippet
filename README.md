@@ -1,6 +1,6 @@
 # My Form Snippet
 
-A snippet I made to when learning Vue and Tailwind CSS that I made for anyone to use. Thanks to the power of vue components and tailwind classes, this form can comes in a variety of colors and is responsive to different sizes.
+A snippet I made when learning Vue and Tailwind CSS that I made for anyone to use. Thanks to the power of vue components and tailwind classes, this form can comes in a variety of colors and is responsive to different sizes.
 
 Future plans:
 - [ ] Utilize vue transitions
