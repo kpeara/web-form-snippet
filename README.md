@@ -7,8 +7,7 @@ Future plans:
 - [ ] Add a dark mode feature
 
 <img src="/images/wide.png">
-<div>
-    <div styles="width: 200px;"></div>
+<div styles="display: flex; justify-content: center;">
     <img src="/images/blue.png" width="250">
     <img src="/images/teal.png" width="250">
     <img src="/images/indigo.png" width="250">
