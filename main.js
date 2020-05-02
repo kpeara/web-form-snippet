@@ -1,3 +1,4 @@
+// form field tailwind css component
 Vue.component("app-form-field", {
     props: ['color', 'label', 'field_type'],
     template: `
@@ -15,19 +16,6 @@ Vue.component("app-form-field", {
 var app = new Vue({
     el: "#app",
     data: {
-        formColor: "blue"
+        formColor: "blue" // default color
     }
 })
-
-// Vue.component('blog-post', {
-//     props: ['message', 'color'],
-//     template: '<h3 :class="color">{{ message }}</h3>'
-//   })
-
-// var app  = new Vue({
-//     el: "#form-field",
-//     data: {
-//         message: "HELLO VUE",
-//         color: "text-red-700"
-//     }
-// });

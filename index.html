@@ -9,25 +9,17 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="app" :class="`text-lg w-screen h-screen bg-{ formColor }-100 font-mono`">
+    <div id="app" :class="`text-lg w-screen h-screen bg-{ formColor }-900 font-mono`">
+
         <!-- title -->
         <h1 :class="`p-6 bg-${ formColor }-300 text-center uppercase font-bold text-${ formColor }-900 text-4xl border-b-8 border-${ formColor }-900 border`">~\.form.\~</h1>
 
-        <!-- firstname -->
-        <!-- <div class="flex justify-center">
-            <div :class="`flex justify-center mt-8 border-8 border-${ formColor }-900 rounded-full`">
-                <label for="first-name" :class="`flex items-center bg-${ formColor }-300 w-40 capitalize px-4 py-2 rounded-l-full text-${ formColor }-900`">first name</label>
-                <div class="bg-white rounded-r-full">
-                    <input placeholder="your first name" class="border-red-900 capitalize m-4">
-                </div>
-            </div>
-        </div> -->
-
         <h1 :class="`flex justify-center mt-8 text-${ formColor }-900 font-bold text-4xl`">Your Profile</h1>
         <div class="flex justify-center">
-            <textarea id="about-field" cols="30" rows="10" placeholder="About You..." :class="`resize-x m-8 p-4 border-8 text-${ formColor }-900 border-${ formColor }-900 rounded-lg`"></textarea>
+            <textarea id="about-field" cols="60" rows="10" placeholder="About You..." :class="`resize-x m-8 p-4 border-8 text-${ formColor }-900 border-${ formColor }-900 rounded-lg`"></textarea>
         </div>
 
+        <!-- form fields -->
         <div class="lg:flex justify-center">
             <div class="lg:flex flex-col lg:m-4">
                 <app-form-field :color=formColor label="first name"></app-form-field>
@@ -39,14 +31,10 @@
             </div>
         </div>
 
-        <!-- <div class="flex justify-center">
-            <label for="about-field" class="capitalize h-4 flex justify-center items-center bg-indigo-300 border-8 border-indigo-900 m-8 -mb-2 p-4 rounded-lg ">about you</label>
-        </div> -->
-
+        <!-- submit button -->
         <div class="flex justify-center m-8">
             <button :class="`bg-${ formColor }-200 hover:bg-${ formColor }-300 text-${ formColor }-900 border-8 border-${ formColor }-900 rounded-full px-4 py-2`">Submit</button>
         </div>
-
     </div>
 
     <script src="main.js"></script>
