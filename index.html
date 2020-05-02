@@ -23,6 +23,11 @@
             </div>
         </div> -->
 
+        <h1 :class="`flex justify-center mt-8 text-${ formColor }-900 font-bold text-4xl`">Your Profile</h1>
+        <div class="flex justify-center">
+            <textarea id="about-field" cols="30" rows="10" placeholder="About You..." :class="`resize-x m-8 p-4 border-8 text-${ formColor }-900 border-${ formColor }-900 rounded-lg`"></textarea>
+        </div>
+
         <div class="lg:flex justify-center">
             <div class="lg:flex flex-col lg:m-4">
                 <app-form-field :color=formColor label="first name"></app-form-field>
@@ -34,9 +39,12 @@
             </div>
         </div>
 
-        <div class="flex align-center flex-col min-w-1/2 mx-auto">
-            <label for="about-field" class="capitalize h-4 flex justify-center items-center bg-indigo-300 border-t-8 border-l-8 border-r-8 border-indigo-900 m-8 -mb-8 p-8 rounded-lg ">about you</label>
-            <textarea id="about-field" cols="60" rows="10" placeholder="About You..." :class="`resize-x m-8 p-4 border-b-8 border-l-8 border-r-8 text-${ formColor }-900 border-${ formColor }-900 rounded-lg`"></textarea>
+        <!-- <div class="flex justify-center">
+            <label for="about-field" class="capitalize h-4 flex justify-center items-center bg-indigo-300 border-8 border-indigo-900 m-8 -mb-2 p-4 rounded-lg ">about you</label>
+        </div> -->
+
+        <div class="flex justify-center m-8">
+            <button :class="`bg-${ formColor }-300 text-${ formColor }-900 border-8 border-${ formColor }-900 rounded-full px-4 py-2`">Submit</button>
         </div>
 
     </div>
