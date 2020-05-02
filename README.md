@@ -7,8 +7,8 @@ Future plans:
 - [ ] Add a dark mode feature
 
 <img src="/images/wide.png">
-<p float="center">
+<div style="display:block; margin-left: auto; margin-right: auto;">
     <img src="/images/blue.png" width="250">
     <img src="/images/teal.png" width="250">
     <img src="/images/indigo.png" width="250">
-</p>
+</div>
