@@ -23,10 +23,16 @@
             </div>
         </div> -->
 
-        <app-form-field :color=formColor label="first name"></app-form-field>
-        <app-form-field :color=formColor label="last name"></app-form-field>
-        <app-form-field :color=formColor label="username"></app-form-field>
-        <app-form-field :color=formColor label="password" field_type="password"></app-form-field>
+        <div class="lg:flex justify-center">
+            <div class="lg:flex flex-col lg:m-4">
+                <app-form-field :color=formColor label="first name"></app-form-field>
+                <app-form-field :color=formColor label="last name"></app-form-field>
+            </div>
+            <div class="lg:flex flex-col lg:m-4">
+                <app-form-field :color=formColor label="username"></app-form-field>
+                <app-form-field :color=formColor label="password" field_type="password"></app-form-field>
+            </div>
+        </div>
 
     </div>
 
