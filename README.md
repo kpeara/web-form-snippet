@@ -8,6 +8,7 @@ Future plans:
 
 <img src="/images/wide.png">
 <div>
+    <div styles="width: 200px;"></div>
     <img src="/images/blue.png" width="250">
     <img src="/images/teal.png" width="250">
     <img src="/images/indigo.png" width="250">
