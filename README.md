@@ -7,6 +7,8 @@ Future plans:
 - [ ] Add a dark mode feature
 
 <img src="/images/wide.png">
-<img src="/images/blue.png" width="250">
-<img src="/images/teal.png" width="250">
-<img src="/images/indigo.png" width="250">
+<p float="left">
+    <img src="/images/blue.png" width="250">
+    <img src="/images/teal.png" width="250">
+    <img src="/images/indigo.png" width="250">
+</p>
