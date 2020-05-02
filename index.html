@@ -9,7 +9,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="app" :class="`text-lg w-screen h-screen bg-${ formColor }-100 font-mono`">
+    <div id="app" :class="`text-lg w-screen h-screen bg-{ formColor }-100 font-mono`">
         <!-- title -->
         <h1 :class="`p-6 bg-${ formColor }-300 text-center uppercase font-bold text-${ formColor }-900 text-4xl border-b-8 border-${ formColor }-900 border`">~\.form.\~</h1>
 
@@ -44,7 +44,7 @@
         </div> -->
 
         <div class="flex justify-center m-8">
-            <button :class="`bg-${ formColor }-300 text-${ formColor }-900 border-8 border-${ formColor }-900 rounded-full px-4 py-2`">Submit</button>
+            <button :class="`bg-${ formColor }-200 hover:bg-${ formColor }-300 text-${ formColor }-900 border-8 border-${ formColor }-900 rounded-full px-4 py-2`">Submit</button>
         </div>
 
     </div>

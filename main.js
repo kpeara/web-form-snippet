@@ -15,7 +15,7 @@ Vue.component("app-form-field", {
 var app = new Vue({
     el: "#app",
     data: {
-        formColor: "green"
+        formColor: "blue"
     }
 })
 
