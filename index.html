@@ -9,46 +9,25 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="app" :class="`text-lg bg-${ formColor }-100 font-mono`">
+    <div id="app" :class="`text-lg w-screen h-screen bg-${ formColor }-100 font-mono`">
         <!-- title -->
         <h1 :class="`p-6 bg-${ formColor }-300 text-center uppercase font-bold text-${ formColor }-900 text-4xl border-b-8 border-${ formColor }-900 border`">~\.form.\~</h1>
 
         <!-- firstname -->
-        <div class="flex justify-center">
+        <!-- <div class="flex justify-center">
             <div :class="`flex justify-center mt-8 border-8 border-${ formColor }-900 rounded-full`">
                 <label for="first-name" :class="`flex items-center bg-${ formColor }-300 w-40 capitalize px-4 py-2 rounded-l-full text-${ formColor }-900`">first name</label>
                 <div class="bg-white rounded-r-full">
                     <input placeholder="your first name" class="border-red-900 capitalize m-4">
                 </div>
             </div>
-        </div>
-        <app-form-field :color=formColor :label=formLabel></app-form-field>
-
-        <!-- <blog-post :message=message :color=color></blog-post> -->
-
-        <!-- lastname
-        <div class="flex justify-center m-8 border-8 border-blue-900 rounded-full">
-            <label for="last-name" class="flex items-center bg-blue-500 w-40 capitalize px-4 py-2 rounded-l-full text-blue-900">last name</label>
-            <div class="bg-white rounded-r-full">
-                <input placeholder="your last name" class=" border-red-900 capitalize m-4">
-            </div>
         </div> -->
 
-        <!-- username
-        <div class="flex justify-center m-8 border-8 border-blue-900 rounded-full">
-            <label for="first-name" class="flex items-center bg-blue-500 w-40 capitalize px-4 py-2 rounded-l-full text-blue-900">username</label>
-            <div class="bg-white rounded-r-full">
-                <input placeholder="your username" class="border-red-900 capitalize m-4">
-            </div>
-        </div> -->
+        <app-form-field :color=formColor label="first name"></app-form-field>
+        <app-form-field :color=formColor label="last name"></app-form-field>
+        <app-form-field :color=formColor label="username"></app-form-field>
+        <app-form-field :color=formColor label="password" field_type="password"></app-form-field>
 
-        <!-- password
-        <div class="flex justify-center m-8 border-8 border-blue-900 rounded-full">
-            <label for="first-name" class="flex items-center bg-blue-500 w-40 capitalize px-4 py-2 rounded-l-full text-blue-900">password</label>
-            <div class="bg-white rounded-r-full">
-                <input placeholder="your password" type="password" class="border-red-900 capitalize m-4">
-            </div>
-        </div> -->
     </div>
 
     <script src="main.js"></script>
