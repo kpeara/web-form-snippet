@@ -17,6 +17,8 @@ Future plans:
 
 The form uses the default colors provided by tailwind: blue, teal, indigo, orange, red etc.
 
+main.js
+
 ```javascript
 
 var app = new Vue({
